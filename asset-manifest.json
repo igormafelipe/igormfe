@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/igormfe/static/css/main.3fcb1d81.css",
+    "main.js": "/igormfe/static/js/main.77eeca24.js",
+    "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
+    "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
+    "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
+    "static/media/rick_morty.jpg": "/igormfe/static/media/rick_morty.8728bfb165ba03bbf4ba.jpg",
+    "static/media/your_name.jpg": "/igormfe/static/media/your_name.4f7a9cb1891f8d4f515b.jpg",
+    "static/media/arcane.jpg": "/igormfe/static/media/arcane.e3c7b8ee121d8c35486e.jpg",
+    "static/media/full_metal_b.jpg": "/igormfe/static/media/full_metal_b.d11ea13cbd9d3078eb76.jpg",
+    "static/media/arith.png": "/igormfe/static/media/arith.0debbc14a08bd3135da2.png",
+    "static/media/code_geass.jpg": "/igormfe/static/media/code_geass.8830c16aec9faa025d6f.jpg",
+    "static/media/swot_analysis.png": "/igormfe/static/media/swot_analysis.e1a9865fab7b5b4dbeb3.png",
+    "static/media/igor_resume.jpg": "/igormfe/static/media/igor_resume.11fee5e8e6425d2d4378.jpg",
+    "static/media/im1.png": "/igormfe/static/media/im1.20eb105f85aaebe20531.png",
+    "static/media/profile_pic.jpg": "/igormfe/static/media/profile_pic.44e5ffd32e04faaa8282.jpg",
+    "static/media/st_augustine.jpg": "/igormfe/static/media/st_augustine.e4014fa51d8b03b27aef.jpg",
+    "static/media/metro_sim.jpg": "/igormfe/static/media/metro_sim.842e8651748e00d0af12.jpg",
+    "static/media/dom_casmurro.jpg": "/igormfe/static/media/dom_casmurro.420378aa409e4d9a7735.jpg",
+    "static/media/green_mile.jpg": "/igormfe/static/media/green_mile.6761c7af0176137859da.jpg",
+    "static/media/igor_praia.jpg": "/igormfe/static/media/igor_praia.c3afabe2d8b69cd7e9df.jpg",
+    "static/media/naruto.jpg": "/igormfe/static/media/naruto.ca85b2bef6ef4c43d9da.jpg",
+    "static/media/avatar.jpg": "/igormfe/static/media/avatar.f39e110c4c4a703aba80.jpg",
+    "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
+    "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
+    "index.html": "/igormfe/index.html",
+    "main.3fcb1d81.css.map": "/igormfe/static/css/main.3fcb1d81.css.map",
+    "main.77eeca24.js.map": "/igormfe/static/js/main.77eeca24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fcb1d81.css",
+    "static/js/main.77eeca24.js"
+  ]
+}
