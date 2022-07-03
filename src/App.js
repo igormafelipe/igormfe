@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Work from './pages/Work';
 import { ResponsiveNavBar } from './components/navbar';
@@ -14,7 +13,7 @@ const Header = () => (
 
 function App() {  
   return (
-    <Router>
+    <Router hashType="hashbang">
       <IconContext.Provider value={{ color: "white", size: "1em"}}>
         <div className="relative">
           <Header />
@@ -22,7 +21,7 @@ function App() {
             <Route path="/" element={<AboutMe />} />
             <Route path="/ABOUT" element={<AboutMe />} />
             <Route path="/WORK" element={<Work />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<AboutMe />} />
           </Routes>
         </div>
       </IconContext.Provider>
