@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.d9efc8f9.css",
+    "main.css": "/igormfe/static/css/main.663aedf9.css",
     "main.js": "/igormfe/static/js/main.3f1cf632.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
@@ -25,11 +25,11 @@
     "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.d9efc8f9.css.map": "/igormfe/static/css/main.d9efc8f9.css.map",
+    "main.663aedf9.css.map": "/igormfe/static/css/main.663aedf9.css.map",
     "main.3f1cf632.js.map": "/igormfe/static/js/main.3f1cf632.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9efc8f9.css",
+    "static/css/main.663aedf9.css",
     "static/js/main.3f1cf632.js"
   ]
 }
