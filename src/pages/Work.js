@@ -3,7 +3,8 @@ import Footer from "./Footer";
 import im1 from "../images/projects/123preach/im1.jpg";
 import im1Web from "../images/projects/websiteimg/im1.png";
 import arith from "../images/projects/arith.png";
-import metroSim from "../images/metro_sim.jpg"
+import metroSim from "../images/metro_sim.jpg";
+import stone from "../images/stone.jpg"
 
 import { useSelector } from 'react-redux';
 import ProjectsGallery from '../components/ProjectsGallery'
@@ -40,18 +41,18 @@ const skills = [
 const projects = 
 [
   { 
-    'images' : [im1Web],
-    'description' : 'I designed and developed a website to display who I am, what I do, and my skills. I hope to convey more than a single sheet of paper could, and to develop my skills in web development.',
-    'tools' : 'React, JavaScript, Html, Redux, TailwindCss',
-    'date' : '06/2022',
-    'title' : 'Personal Website',
+    'images' : [stone],
+    'description' : 'To structure a new products operation, focusing on entrepreneurial and Leadership skills. Tasks included ensuring all necessary documentation is aligned to train the team, overseeing the necessary infrastructure in different platforms so the team members can provide a service of the highest quality, structuring the main processes to resolve any new problem the client may have, and suggesting improvements for the agent experience on Salesforce and Admin.',
+    'tools' : 'Clickup, Workplace, DashBoard, SQL, Google Cloud, Google Sheets, Google Forms',
+    'date' : '06/2022 - 09/2022',
+    'title' : 'Stone Global Summer Internship',
   },
   { 
-    'images' : [im1Web],
-    'description' : 'A minecraft server hosted on AWS, with an app that allows the users to open and close the server. Only users with a registered account are able to log into the app and control the server status.',
-    'tools' : '',
-    'date' : '06/2022',
-    'title' : 'Minecraft App',
+    'images' : [metroSim],
+    'description' : 'A metro simulator where stations and trains can be modified, and passengers are given a boarding station and a destination. Trains function in parallel. Developed skills in parallel programming, locks, semaphores, and Java.',
+    'tools' : 'Java',
+    'date' : '09/2021',
+    'title' : 'Metro Sim',
   },
   { 
     'images' : [metroSim],
@@ -66,6 +67,13 @@ const projects =
     'tools' : 'C',
     'date' : '06/2020',
     'title' : 'Image Compressor',
+  },
+  {
+    'images' : [im1Web],
+    'description' : 'I designed and developed a website to display who I am, what I do, and my skills. I hope to convey more than a single sheet of paper could, and to develop my skills in web development.',
+    'tools' : 'JavaScript, Html, React, Redux, TailwindCss',
+    'date' : '06/2022',
+    'title' : 'Personal Website',
   },
   { 
     'images' : [im1],
