@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/igormfe/static/css/main.663aedf9.css",
-    "main.js": "/igormfe/static/js/main.3f1cf632.js",
+    "main.js": "/igormfe/static/js/main.a5d9823f.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
@@ -20,16 +20,17 @@
     "static/media/dom_casmurro.jpg": "/igormfe/static/media/dom_casmurro.420378aa409e4d9a7735.jpg",
     "static/media/green_mile.jpg": "/igormfe/static/media/green_mile.6761c7af0176137859da.jpg",
     "static/media/igor_praia.jpg": "/igormfe/static/media/igor_praia.c3afabe2d8b69cd7e9df.jpg",
+    "static/media/stone.jpg": "/igormfe/static/media/stone.f390e3d39bf3e4d6eb39.jpg",
     "static/media/naruto.jpg": "/igormfe/static/media/naruto.ca85b2bef6ef4c43d9da.jpg",
     "static/media/avatar.jpg": "/igormfe/static/media/avatar.f39e110c4c4a703aba80.jpg",
     "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
     "main.663aedf9.css.map": "/igormfe/static/css/main.663aedf9.css.map",
-    "main.3f1cf632.js.map": "/igormfe/static/js/main.3f1cf632.js.map"
+    "main.a5d9823f.js.map": "/igormfe/static/js/main.a5d9823f.js.map"
   },
   "entrypoints": [
     "static/css/main.663aedf9.css",
-    "static/js/main.3f1cf632.js"
+    "static/js/main.a5d9823f.js"
   ]
 }
