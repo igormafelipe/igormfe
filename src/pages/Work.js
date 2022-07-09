@@ -55,13 +55,6 @@ const projects =
     'title' : 'Metro Sim',
   },
   { 
-    'images' : [metroSim],
-    'description' : 'A metro simulator where stations and trains can be modified, and passengers are given a boarding station and a destination. Trains function in parallel. Developed skills in parallel programming, locks, semaphores, and Java.',
-    'tools' : 'Java',
-    'date' : '09/2021',
-    'title' : 'Metro Sim',
-  },
-  { 
     'images' : [arith],
     'description' : 'As the name suggests, this program compressed and decompressed an image. The compressed image was 4 times smaller than the original, and the algorithm converted the image from pixels from RGB to a matrix of compressed 4 by 4 tiles, and then further compressed this matrix into 32 bit words.',
     'tools' : 'C',

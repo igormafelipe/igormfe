@@ -35,7 +35,10 @@ function AboutMeContent () {
             </div>
 
             <div className='w-4/6 bg-black border-solid border-r-2 border-white flex flex-row'>
-                <img className="w-full h-full object-cover" src={swot_analysis}/>
+                <div className="w-full h-full">
+                    <img className="w-full h-full object-contain" src={swot_analysis}/>
+                </div>
+                {/* <img className="w-full h-full object-contain" src={swot_analysis}/> */}
             </div>
         </div>
     );

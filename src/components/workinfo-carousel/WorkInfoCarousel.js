@@ -8,7 +8,7 @@ const buttons = ["Resume", "Projects"];
 
 function WorkInfoCarousel (props) { 
     const isTogled = useSelector((state) => state.workInfo.isTogled); 
-    const componentTogledClass = "h-auto w-auto bg-black flex flex-row items-center justify-center transition-all";
+    const componentTogledClass = "h-auto w-auto bg-black flex flex-row justify-center transition-all";
     const componentUntogledClass = componentTogledClass + " hidden";
     const buttonTogledClass = "h-screen w-screen bg-black flex flex-row items-center justify-center space-x-20 transition-all";
     const buttonUntogledClass = buttonTogledClass + " hidden";
@@ -23,16 +23,16 @@ function WorkInfoCarousel (props) {
             <div className={buttonClass}>
                 {buttons.map((button, index) => 
                         <WorkInfoButton 
-                                    text={button} 
-                                    id={index}
-                                    key={index}
+                            text={button} 
+                            id={index}
+                            key={index}
                         />
                 )}
             </div>
             <div className={componentClass}>
-                <span className="absolute top-20 left-5 hover:cursor-pointer" 
+                <span className="absolute top-20 right-3 hover:cursor-pointer z-10" 
                       onClick={setButton}>
-                    <RiArrowGoBackFill size={40}/>
+                    <RiArrowGoBackFill size={50}/>
                 </span>
                 {props.component}
             </div>
