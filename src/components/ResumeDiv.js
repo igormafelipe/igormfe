@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import ExperienceDescription from './ExperienceDescription';
 import IgorResume from '../images/igor_resume.jpg'
 
-function ResumeDiv (props) { 
+function ResumeDiv () { 
     const [isTogled, toggle] = useState(false);
     const [imgClass, setImgClass] = useState("w-2/3 transition-all xl:w-1/2");
     const zoomedClass = "h-auto min-h-screen w-screen bg-black flex flex-row items-center justify-center hover:cursor-zoom-out";

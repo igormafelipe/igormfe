@@ -25,7 +25,7 @@ function AboutMeContent () {
 
                 <div className="h-full w-auto relative bg-transparent top-9 overflow-hidden">
                     <ProfileInfo text="Igor Mafra Felipe" icon={CgProfile}/>
-                    <ProfileInfo text="22 Years Old" icon={AiOutlineCalendar}/>
+                    <ProfileInfo text="23 Years Old" icon={AiOutlineCalendar}/>
                     <ProfileInfo text="Born in Brazil" icon={GiBrazilFlag}/>
                     <ProfileInfo text="Boston" icon={GoLocation}/>
                     <ProfileInfo text="Computer Science" icon={RiComputerLine}/>
@@ -38,7 +38,6 @@ function AboutMeContent () {
                 <div className="w-full h-full">
                     <img className="w-full h-full object-contain" src={swot_analysis}/>
                 </div>
-                {/* <img className="w-full h-full object-contain" src={swot_analysis}/> */}
             </div>
         </div>
     );
