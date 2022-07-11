@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.54c7f0b8.css",
-    "main.js": "/igormfe/static/js/main.4f440515.js",
+    "main.css": "/igormfe/static/css/main.ccd062a1.css",
+    "main.js": "/igormfe/static/js/main.a4e23750.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
@@ -9,10 +9,10 @@
     "static/media/your_name.jpg": "/igormfe/static/media/your_name.4f7a9cb1891f8d4f515b.jpg",
     "static/media/arcane.jpg": "/igormfe/static/media/arcane.e3c7b8ee121d8c35486e.jpg",
     "static/media/full_metal_b.jpg": "/igormfe/static/media/full_metal_b.d11ea13cbd9d3078eb76.jpg",
+    "static/media/swot_analysis.png": "/igormfe/static/media/swot_analysis.22a6fd015696fe2ab164.png",
     "static/media/arith.png": "/igormfe/static/media/arith.0debbc14a08bd3135da2.png",
     "static/media/code_geass.jpg": "/igormfe/static/media/code_geass.8830c16aec9faa025d6f.jpg",
-    "static/media/swot_analysis.png": "/igormfe/static/media/swot_analysis.e1a9865fab7b5b4dbeb3.png",
-    "static/media/igor_resume.jpg": "/igormfe/static/media/igor_resume.11fee5e8e6425d2d4378.jpg",
+    "static/media/igor_resume.jpg": "/igormfe/static/media/igor_resume.2c83fbf18d87b2da3aa8.jpg",
     "static/media/im1.png": "/igormfe/static/media/im1.20eb105f85aaebe20531.png",
     "static/media/profile_pic.jpg": "/igormfe/static/media/profile_pic.44e5ffd32e04faaa8282.jpg",
     "static/media/st_augustine.jpg": "/igormfe/static/media/st_augustine.e4014fa51d8b03b27aef.jpg",
@@ -26,11 +26,11 @@
     "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.54c7f0b8.css.map": "/igormfe/static/css/main.54c7f0b8.css.map",
-    "main.4f440515.js.map": "/igormfe/static/js/main.4f440515.js.map"
+    "main.ccd062a1.css.map": "/igormfe/static/css/main.ccd062a1.css.map",
+    "main.a4e23750.js.map": "/igormfe/static/js/main.a4e23750.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c7f0b8.css",
-    "static/js/main.4f440515.js"
+    "static/css/main.ccd062a1.css",
+    "static/js/main.a4e23750.js"
   ]
 }
