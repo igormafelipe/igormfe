@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {IoClose} from 'react-icons/io5';
+import { XIcon } from '@heroicons/react/solid';
 import { useDispatch, useSelector } from 'react-redux';
 import { hide } from './FavoriteDisplaySlicer';
 
@@ -31,8 +31,8 @@ function FavoriteDisplay(props) {
             </h1>
           </div>
         </div>
-        <span className="absolute top-0 left-0 hover:cursor-pointer bg-black rounded-full border-2 border-white" onClick={() => dispatch(hide())}>
-         <IoClose size={50}/>
+        <span className="absolute top-1 left-1 hover:cursor-pointer bg-black rounded-full border-2 border-white" onClick={() => dispatch(hide())}>
+         <XIcon className="h-10 w-10 hover:text-red-400 2xl:h-12 2xl:w-12 stroke-white"/>
         </span>
       </div>
     </div>
