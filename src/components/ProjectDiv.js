@@ -2,8 +2,8 @@ import React from 'react';
 
 function ProjectDiv (props) {
     return (
-        <div className='w-1/2 h-auto flex flex-col pb-3 transition-all'>
-            <div className='w-full h-full text-gray-100'>
+        <div className='w-1/2 h-full flex flex-col py-3 transition-all'>
+            <div className='w-full h-auto text-gray-100'>
                 <h1 className="text-center font-bold text-2xl pt-5">
                     {props.title}
                 </h1>
@@ -17,7 +17,7 @@ function ProjectDiv (props) {
                     Tools Used: {props.tools}
                 </h1>
             </div>
-            <div className='w-full h-full pt-4'>
+            <div className='w-full h-full pt-8'>
                 <img src={props.images[0]} className="w-full"/>
             </div>
         </div>

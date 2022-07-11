@@ -23,7 +23,7 @@ function AboutIcon (props) {
     }
 
     const iconClass = classnames(
-        'h-12 w-12 hover:stroke-yellow-300 xl:h-14 xl:w-14 2xl:h-16 2xl:w-16',
+        'h-11 w-11 hover:stroke-yellow-300 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14',
         {"text-yellow-300"  : isSelected === "selected"},
         {"text-black stroke-white"    : isSelected === "unselected"},
     )
