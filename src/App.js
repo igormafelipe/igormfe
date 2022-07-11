@@ -33,19 +33,6 @@ function App() {
         </IconContext.Provider>
       </Router>
     </HelmetProvider>
-    // <Router hashType="hashbang">
-    //   <IconContext.Provider value={{ color: "white", size: "1em"}}>
-    //     <div className="relative">
-    //       <Header />
-    //       <Routes>
-    //         <Route path="/" element={<AboutMe />} />
-    //         <Route path="/ABOUT" element={<AboutMe />} />
-    //         <Route path="/WORK" element={<Work />} />
-    //         <Route path="*" element={<AboutMe />} />
-    //       </Routes>
-    //     </div>
-    //   </IconContext.Provider>
-    // </Router>
   );
 }
 
