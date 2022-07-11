@@ -24,11 +24,9 @@ export const favoriteSlice = createSlice({
         },
         setTitle: (state, action) => {
             state.title = action.payload;
-            console.log("setting title...");
         },
         setBody: (state, action) => {
             state.bodyText = action.payload;
-            console.log("setting body...");
         },
     }
 })

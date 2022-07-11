@@ -16,7 +16,6 @@ export const workInfoSlice = createSlice({
         togle: (state, action) => {
             state.togled = action.payload;
             state.isTogled = true;
-            console.log(state.togled.toString());
         },
         untogle: (state) => {
             state.isTogled = false;

@@ -8,7 +8,6 @@ function ResumeDiv () {
     const notZoomedClass = "h-auto min-h-screen w-screen bg-black flex flex-row items-center justify-center hover:cursor-zoom-in"
     const [divClass, setDivClass] = useState(notZoomedClass);
     const setImg = () => {
-        console.log("hey");
         if (!isTogled) {
             toggle(true);
             setImgClass("w-4/5 transition-all xl:w-2/3");

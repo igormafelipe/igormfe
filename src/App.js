@@ -5,7 +5,6 @@ import Work from './pages/Work';
 import { ResponsiveNavBar } from './components/navbar';
 import { IconContext } from "react-icons";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { setTitle } from './components/favorite-content/FavoriteDisplaySlicer';
 
 const Header = () => (
   <header>

@@ -20,7 +20,6 @@ export function ResponsiveNavBar () {
   const resetState = () => {
     dispatch(hide());
     dispatch(untogle());
-    console.log("hey");
   }
 
   const goToMain = () => {
