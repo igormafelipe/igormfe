@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.2f973eeb.css",
-    "main.js": "/igormfe/static/js/main.d9a5c9a3.js",
+    "main.css": "/igormfe/static/css/main.d9503ba8.css",
+    "main.js": "/igormfe/static/js/main.e0ca492c.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
@@ -26,11 +26,11 @@
     "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.2f973eeb.css.map": "/igormfe/static/css/main.2f973eeb.css.map",
-    "main.d9a5c9a3.js.map": "/igormfe/static/js/main.d9a5c9a3.js.map"
+    "main.d9503ba8.css.map": "/igormfe/static/css/main.d9503ba8.css.map",
+    "main.e0ca492c.js.map": "/igormfe/static/js/main.e0ca492c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f973eeb.css",
-    "static/js/main.d9a5c9a3.js"
+    "static/css/main.d9503ba8.css",
+    "static/js/main.e0ca492c.js"
   ]
 }
