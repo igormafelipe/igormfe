@@ -15,7 +15,7 @@ function WorkInfoButton (props) {
     return (
         <div className={btnClass}
             onClick={setButton}>
-            <h1 className="text-center font-bold text-white text-2xl group-hover:text-black">
+            <h1 className="text-center font-bold text-white text-3xl group-hover:text-black">
                 {props.text}
             </h1>
         </div>

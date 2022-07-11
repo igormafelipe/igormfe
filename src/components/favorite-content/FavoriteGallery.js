@@ -3,7 +3,7 @@ import FavoriteImg from './FavoriteImg';
 
 function FavoriteGallery(props) { 
   return (
-    <div className='w-full h-auto flex flex-col'>
+    <div className='w-full h-5/6 flex flex-col'>
         <div className='w-full h-auto text-center'>
             <h1 className='font-extrabold text-2xl text-white pt-1 text-center font-mono 2xl:text-3xl'>{props.title}</h1>
         </div>

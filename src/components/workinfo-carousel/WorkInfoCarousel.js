@@ -2,9 +2,9 @@ import React from 'react';
 import WorkInfoButton from './WorkInfoButton';
 import { useDispatch, useSelector } from 'react-redux';
 import { togle, untogle } from './WorkInfoSlicer';
-import { RiArrowGoBackFill } from 'react-icons/ri';
+import { ArrowCircleLeftIcon } from '@heroicons/react/solid';
 
-const buttons = ["Resume", "Projects"];
+const buttons = ["RESUME", "PROJECTS"];
 
 function WorkInfoCarousel (props) { 
     const isTogled = useSelector((state) => state.workInfo.isTogled); 
@@ -32,7 +32,7 @@ function WorkInfoCarousel (props) {
             <div className={componentClass}>
                 <span className="absolute top-20 right-3 hover:cursor-pointer z-10" 
                       onClick={setButton}>
-                    <RiArrowGoBackFill size={50}/>
+                    <ArrowCircleLeftIcon className='h-14 w-14 hover:stroke-yellow-300 2xl:h-16 2xl:w-16 stroke-white'/>
                 </span>
                 {props.component}
             </div>

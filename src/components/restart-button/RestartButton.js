@@ -2,13 +2,10 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setGif, restartGif } from './restartButtonSlice';
-import { VscDebugRestart } from 'react-icons/vsc';
-
-const iconSize = 50;
+import { RefreshIcon } from '@heroicons/react/solid';
 
 function RestartButton () { 
     const dispatch = useDispatch();
-    let i = 0;
 
     const resetGif = () => {
         dispatch(restartGif());
@@ -17,7 +14,7 @@ function RestartButton () {
 
     return (
         <span onClick={() => resetGif()} className="hover:cursor-pointer absolute">
-            <VscDebugRestart size={iconSize}/>
+            <RefreshIcon className='h-10 w-10 hover:text-yellow-300 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14'/>
         </span>
     );
 }

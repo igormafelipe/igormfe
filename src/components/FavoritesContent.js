@@ -20,68 +20,68 @@ import FavoriteDisplay from './favorite-content/FavoriteDisplay';
 import { FavoriteContentBodys, FavoriteContentTitles } from '../texts/FavoriteContentText';
 
 const favoriteBooks = [{
-                            "img" : TheConfessions,
-                            "title" : FavoriteContentTitles['books']['confessions'],
-                            "body" : FavoriteContentBodys['books']['confessions'],
-                        },
-                        {
-                            "img" : HpBook,
-                            "title" : FavoriteContentTitles['books']['harrypotter'],
-                            "body" : FavoriteContentBodys['books']['harrypotter'],
-                        },
-                        {
-                            "img" : DomCasmurro,
-                            "title" : FavoriteContentTitles['books']['casmurro'],
-                            "body" : FavoriteContentBodys['books']['casmurro'],
-                        }];
+    "img" : TheConfessions,
+    "title" : FavoriteContentTitles['books']['confessions'],
+    "body" : FavoriteContentBodys['books']['confessions'],
+},
+{
+    "img" : HpBook,
+    "title" : FavoriteContentTitles['books']['harrypotter'],
+    "body" : FavoriteContentBodys['books']['harrypotter'],
+},
+{
+    "img" : DomCasmurro,
+    "title" : FavoriteContentTitles['books']['casmurro'],
+    "body" : FavoriteContentBodys['books']['casmurro'],
+}];
                         
 const favoriteAnimes = [{
-                            "img" : Naruto,
-                            "title" : FavoriteContentTitles['animes']['naruto'],
-                            "body" : FavoriteContentBodys['animes']['naruto'],
-                        },
-                        {
-                            "img" : FullMetal,
-                            "title" : FavoriteContentTitles['animes']['fullmetal'],
-                            "body" : FavoriteContentBodys['animes']['fullmetal'],
-                        },
-                        {
-                            "img" : CodeGeass,
-                            "title" : FavoriteContentTitles['animes']['codegeass'],
-                            "body" : FavoriteContentBodys['animes']['codegeass'],
-                        }];
+    "img" : Naruto,
+    "title" : FavoriteContentTitles['animes']['naruto'],
+    "body" : FavoriteContentBodys['animes']['naruto'],
+},
+{
+    "img" : FullMetal,
+    "title" : FavoriteContentTitles['animes']['fullmetal'],
+    "body" : FavoriteContentBodys['animes']['fullmetal'],
+},
+{
+    "img" : CodeGeass,
+    "title" : FavoriteContentTitles['animes']['codegeass'],
+    "body" : FavoriteContentBodys['animes']['codegeass'],
+}];
 const favoriteMovies = [{
-                            "img" : Avatar,
-                            "title" : FavoriteContentTitles['movies']['avatar'],
-                            "body" : FavoriteContentBodys['movies']['avatar'],
-                        },
-                        {
-                            "img" : YourName,
-                            "title" : FavoriteContentTitles['movies']['yourname'],
-                            "body" : FavoriteContentBodys['movies']['yourname'],
-                        },
-                        {
-                            "img" : GreenMile,
-                            "title" : FavoriteContentTitles['movies']['greenmile'],
-                            "body" : FavoriteContentBodys['movies']['greenmile'],
-                        }];
+    "img" : Avatar,
+    "title" : FavoriteContentTitles['movies']['avatar'],
+    "body" : FavoriteContentBodys['movies']['avatar'],
+},
+{
+    "img" : YourName,
+    "title" : FavoriteContentTitles['movies']['yourname'],
+    "body" : FavoriteContentBodys['movies']['yourname'],
+},
+{
+    "img" : GreenMile,
+    "title" : FavoriteContentTitles['movies']['greenmile'],
+    "body" : FavoriteContentBodys['movies']['greenmile'],
+}];
 
 
 const favoriteShows = [{
-                            "img" : RickMorty,
-                            "title" : FavoriteContentTitles['shows']['rickmort'],
-                            "body" : FavoriteContentBodys['shows']['rickmort'],
-                        },
-                        {
-                            "img" : TheWitcher,
-                            "title" : FavoriteContentTitles['shows']['witcher'],
-                            "body" : FavoriteContentBodys['shows']['witcher'],
-                        },
-                        {
-                            "img" : Arcane,
-                            "title" : FavoriteContentTitles['shows']['arcane'],
-                            "body" : FavoriteContentBodys['shows']['arcane'],
-                        }];
+    "img" : RickMorty,
+    "title" : FavoriteContentTitles['shows']['rickmort'],
+    "body" : FavoriteContentBodys['shows']['rickmort'],
+},
+{
+    "img" : TheWitcher,
+    "title" : FavoriteContentTitles['shows']['witcher'],
+    "body" : FavoriteContentBodys['shows']['witcher'],
+},
+{
+    "img" : Arcane,
+    "title" : FavoriteContentTitles['shows']['arcane'],
+    "body" : FavoriteContentBodys['shows']['arcane'],
+}];
 
 function FavoritesContent () { 
     return (

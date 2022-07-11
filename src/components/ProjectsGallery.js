@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProjectDiv from './ProjectDiv';
 import {MdArrowForwardIos} from 'react-icons/md';
-import {MdArrowBackIos} from 'react-icons/md';
+import { ChevronLeftIcon, ChevronRightIcon} from '@heroicons/react/solid';
 import classnames from 'classnames/bind';
 
 const TRANSITIONING_RIGHT = 0
@@ -41,7 +41,7 @@ function ProjectsGallery (props) {
     return (
         <div className={activeClass}>
             <span onClick={() => transition(minusDiv)} className="hover:cursor-pointer">
-                <MdArrowBackIos size={60}/>
+                <ChevronLeftIcon className='h-16 w-16 hover:stroke-yellow-300 2xl:h-18 2xl:w-18 stroke-white'/>
             </span>
             <ProjectDiv images={props.projectList[active]["images"]} 
                         description={props.projectList[active]["description"]} 
@@ -49,7 +49,7 @@ function ProjectsGallery (props) {
                         tools={props.projectList[active]["tools"]} 
                         date={props.projectList[active]["date"]}/>
             <span onClick={() => transition(plusDiv)} className="hover:cursor-pointer">
-                <MdArrowForwardIos size={60}/>
+                <ChevronRightIcon className='h-16 w-16 hover:stroke-yellow-300 2xl:h-18 2xl:w-18 stroke-white'/>
             </span>
         </div>
     );

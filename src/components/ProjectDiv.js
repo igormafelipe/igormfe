@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function ProjectDiv (props) {
     return (
-        <div className='w-5/6 xl:w-1/2 h-auto flex flex-col pb-3 transition-all'>
+        <div className='w-1/2 h-auto flex flex-col pb-3 transition-all'>
             <div className='w-full h-full text-gray-100'>
                 <h1 className="text-center font-bold text-2xl pt-5">
                     {props.title}
