@@ -2,7 +2,8 @@ import im1 from "../images/projects/123preach/im1.jpg";
 import im1Web from "../images/projects/websiteimg/im1.png";
 import arith from "../images/projects/arith.png";
 import metroSim from "../images/metro_sim.jpg";
-import stone from "../images/stone.jpg"
+import stone from "../images/stone.jpg";
+import all_windows_clean from "../images/website_pai.png";
 
 export const projects = 
 [
@@ -33,6 +34,13 @@ export const projects =
     'tools' : 'JavaScript, Html, React, Redux, TailwindCss',
     'date' : '06/2022',
     'title' : 'Personal Website',
+  },
+  {
+    'images' : [all_windows_clean],
+    'description' : 'I designed and developed a website for All Windows Services, a windows cleaning company based in Marlborough, MA. The website was designed using figma, and most of the functionalities came from wix. JavaScript was used to alter some functionalities to better serve the company.',
+    'tools' : 'Figma, JS, wix, PhotoShop',
+    'date' : '7/20/2022',
+    'title' : 'allwindowservice.com',
   },
   { 
     'images' : [im1],

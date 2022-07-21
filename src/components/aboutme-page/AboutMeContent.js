@@ -1,13 +1,13 @@
 import React from 'react';
 import eu_praia from '../../images/igor_praia.jpg';
 import ProfileInfo from './profile-info';
-import {AiOutlineCalendar} from 'react-icons/ai';
-import {CgProfile} from 'react-icons/cg';
-import {GiBrazilFlag} from 'react-icons/gi';
-import {GoLocation} from 'react-icons/go';
-import {RiComputerLine} from 'react-icons/ri';
-import {IoSchoolSharp} from 'react-icons/io5';
-import {GiReceiveMoney} from 'react-icons/gi';
+import { AiOutlineCalendar } from 'react-icons/ai';
+import { CgProfile } from 'react-icons/cg';
+import { GiBrazilFlag } from 'react-icons/gi';
+import { GoLocation } from 'react-icons/go';
+import { RiComputerLine } from 'react-icons/ri';
+import { IoSchoolSharp } from 'react-icons/io5';
+import { GiReceiveMoney } from 'react-icons/gi';
 import swot_analysis from '../../images/swot_analysis.png';
 
 function AboutMeContent () { 
@@ -16,7 +16,7 @@ function AboutMeContent () {
             <div className="w-1/3 h-full bg-black flex flex-col items-center border-x-2 border-white overflow-hidden">
 
                 <div className="h-auto w-auto pb-9 pt-5">
-                    <h1 className="text-3xl bg-clip-text text-white pt-2 text-center font-mono">
+                    <h1 className="text-2xl xl:text-3xl bg-clip-text text-white pt-2 text-center font-mono">
                         Hello, I'm Igor
                     </h1>
                 </div>
