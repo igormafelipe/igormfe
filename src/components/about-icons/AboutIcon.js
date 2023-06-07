@@ -16,7 +16,8 @@ function AboutIcon (props) {
 
         dispatch(hide());
 
-        if (id === 2) {
+        if (id === 3) {
+            console.log("her");
             dispatch(restartGif());
             setTimeout(() => { dispatch(setGif()) }, 0);
         }

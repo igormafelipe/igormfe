@@ -23,7 +23,7 @@ function ProfileCard () {
                 <img src={eu_praia} className="w-3/5 rounded-full border-solid border-2 border-white 2xl:w-2/3"/>
 
                 <div className="h-full w-auto relative bg-transparent top-9">
-                    <ProfileInfo text="Igor Mafra Felipe" icon={CgProfile}/>
+                    <ProfileInfo text="Software Engineer" icon={CgProfile}/>
                     <ProfileInfo text="23 Years Old" icon={AiOutlineCalendar}/>
                     <ProfileInfo text="Born in Brazil" icon={GiBrazilFlag}/>
                     <ProfileInfo text="Computer Science" icon={RiComputerLine}/>

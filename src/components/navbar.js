@@ -5,7 +5,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { hide } from './favorite-content/FavoriteDisplaySlicer';
-import { untogle } from './workinfo-carousel/WorkInfoSlicer';
+import { setGif, restartGif } from './restart-button/restartButtonSlice';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { toggle, untoggle } from './about-icons/buttonSlice';
 
@@ -18,13 +18,13 @@ export function ResponsiveNavBar (props) {
 
       dispatch(hide());
 
-      if (id === 2) {
+      if (id === 3) {
           dispatch(restartGif());
           setTimeout(() => { dispatch(setGif()) }, 0);
       }
   }
 
-  const pages = ['PROJECTS', 'RESUME', 'CONTACT', 'ABOUT'];
+  const pages = ['PROJECTS', 'SKILLS', 'CONTACT', 'ABOUT'];
   const pages_id = {'PROJECTS' : 0,
                     'RESUME' : 1, 
                     'CONTACT' : 2,

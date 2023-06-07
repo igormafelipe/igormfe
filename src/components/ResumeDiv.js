@@ -1,28 +1,76 @@
 import React, { useState } from 'react';
-import IgorResume from '../images/igor_resume.jpg'
+import { SkillBars } from 'react-skills';
 
-function ResumeDiv () { 
-    const [isTogled, toggle] = useState(false);
-    const [imgClass, setImgClass] = useState("w-2/3 transition-all xl:w-1/2");
-    const zoomedClass = "h-auto min-h-screen w-screen bg-black flex flex-row items-center justify-center hover:cursor-zoom-out";
-    const notZoomedClass = "h-auto min-h-screen w-screen bg-black flex flex-row items-center justify-center hover:cursor-zoom-in"
-    const [divClass, setDivClass] = useState(notZoomedClass);
-    const setImg = () => {
-        if (!isTogled) {
-            toggle(true);
-            setImgClass("w-4/5 transition-all xl:w-2/3");
-            setDivClass(zoomedClass);
-        } else {
-            toggle(false);
-            setImgClass("w-2/3 transition-all xl:w-1/2");
-            setDivClass(notZoomedClass);
-        }
-    }
+// Resume information in a separate file.
+// Make just skeleton of what div will be like.
+function ResumeDiv () {     
+    const color = '#61C9A8';
+    const skillsData= [
+        {
+            name: 'ReactJS',
+            level: 95,
+            color: color,
+        },
+        {
+            name: 'ReactNative',
+            level: 34,
+            color: color,
+        },
+        {
+            name: 'Pandas',
+            level: 12,
+            color: color,
+        },
+        {
+            name: 'SQL',
+            level: 34,
+            color: color,
+        },
+        {
+            name: 'BLA',
+            level: 98,
+            color: color,
+        },
+        {
+            name: 'BLi',
+            level: 100,
+            color: color,
+        },
+        {
+            name: 'dsadsa',
+            level: 67,
+            color: color,
+        },
+        {
+            name: 'fds',
+            level: 78,
+            color: color,
+        },
+        {
+            name: 'gfdgfd',
+            level: 74,
+            color: color,
+        },
+        {
+            name: 'eqweqw',
+            level: 81,
+            color: color,
+        },
+        {
+            name: '123wqewqeqw',
+            level: 92,
+            color: color,
+        },
+    ]
+
     return (
-        <div className={divClass}>
-            <img src={IgorResume} className={imgClass} onClick={setImg}/>
+        <div className='w-full h-full bg-black'>
+            <h1 className="text-2xl xl:text-3xl bg-clip-text text-white pt-2 text-center font-mono pb-10">
+                Skills
+            </h1>
+            <SkillBars skills={skillsData} spacing={30} labelsWidth={110}/>
         </div>
     );
 }
-
+5
 export default ResumeDiv;
