@@ -5,12 +5,13 @@ import GamingContent from '../components/GamingContent';
 import FavoritesContent from '../components/FavoritesContent';
 
 import Footer from "./Footer";
-import Carousel from '../components/carousel';
 import AboutDiv from '../components/aboutme-page/about-div';
+import ProfileCard from '../components/ProfileCard';
 
 function AboutMe() {  
   return (
     <div className="h-auto container-fluid bg-black overflow-hidden">
+      {/* Mobile */}
       <div className='lg:hidden'>
         <div className="w-screen h-auto bg-black relative top-0">
           <div className="w-screen h-auto flex p-5 justify-center pr-10">
@@ -57,13 +58,18 @@ function AboutMe() {
         </div>
       </div>
 
+      {/* Desktop */}
       <div className='h-screen w-screen hidden lg:flex lg:flex-col'>
-        <div className='w-full h-5/6 flex flex-col items-center relative top-2 bg-black group'>
-          <AboutDiv id={0} content={<AboutMeContent/>} color="bg-red-300"/>
-          <AboutDiv id={1} content={<FavoritesContent/>} color="bg-red-500"/>
-          <AboutDiv id={2} content={<GamingContent/>} color="bg-red-200"/>
+        <div className='w-full h-[90vh] flex flex-col items-center relative top-2'>
+
+          <ProfileCard/>
+
+          {/* These divs are affected by the Carousel. They are shown/hidden as 
+              icons are pressed */}
+          <AboutDiv id={0} content={<AboutMeContent/>} color="bg-black"/>
+          <AboutDiv id={1} content={<FavoritesContent/>} color="bg-black"/>
+          <AboutDiv id={2} content={<GamingContent/>} color="bg-black"/>
         </div>
-        <Carousel />
       </div>
       <Footer/>
     </div>
