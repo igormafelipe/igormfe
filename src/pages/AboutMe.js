@@ -1,12 +1,11 @@
 import React from 'react';
 import profilePic from '../images/profile_pic.jpg';
-import AboutMeContent from '../components/aboutme-page/AboutMeContent';
 import GamingContent from '../components/GamingContent';
 import FavoritesContent from '../components/FavoritesContent';
 
 import Footer from "./Footer";
-import AboutDiv from '../components/aboutme-page/about-div';
-import ProfileCard from '../components/ProfileCard';
+import CaroulselSelector from '../components/CaroulselSelector';
+import ProfileCard from '../components/profile-card/ProfileCard';
 
 function AboutMe() {  
   return (
@@ -66,9 +65,9 @@ function AboutMe() {
 
           {/* These divs are affected by the Carousel. They are shown/hidden as 
               icons are pressed */}
-          <AboutDiv id={0} content={<AboutMeContent/>} color="bg-black"/>
-          <AboutDiv id={1} content={<FavoritesContent/>} color="bg-black"/>
-          <AboutDiv id={2} content={<GamingContent/>} color="bg-black"/>
+          <CaroulselSelector id={0} content={<FavoritesContent/>} color="bg-black"/>
+          <CaroulselSelector id={2} content={<GamingContent/>} color="bg-black"/>
+          {/* Todo: Contact ME with id 1 */}
         </div>
       </div>
       <Footer/>

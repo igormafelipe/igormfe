@@ -1,7 +1,7 @@
 import React from 'react';
-import eu_praia from '../images/igor_praia.jpg';
-import ProfileInfo from './aboutme-page/profile-info';
-import Carousel from './carousel';
+import eu_praia from '../../images/igor_praia.jpg';
+import ProfileInfo from './profile-info';
+import Carousel from '../carousel';
 
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { CgProfile } from 'react-icons/cg';

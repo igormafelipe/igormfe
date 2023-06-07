@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import classnames from 'classnames/bind';
 
-function AboutDiv (props) { 
+function CaroulselSelector (props) { 
     const divState = useSelector((state) => state.button.divState[props.id]);
 
     const divClasses = classnames(
@@ -20,4 +20,4 @@ function AboutDiv (props) {
     );
 }
 
-export default AboutDiv;
+export default CaroulselSelector;
