@@ -2,36 +2,49 @@
 // https://github.com/karinfam
 
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { hide } from './favorite-content/FavoriteDisplaySlicer';
 import { untogle } from './workinfo-carousel/WorkInfoSlicer';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { toggle, untoggle } from './about-icons/buttonSlice';
 
-
-const pages = ['ABOUT', 'WORK'];
-const mainDivId = 0;
-const navLinks = pages.map(page => <Link key={page} className="no-underline text-gray-200 font-semibold hover:text-yellow-200" to={`${page}`}>{page}</Link>);
-
-export function ResponsiveNavBar () {
+export function ResponsiveNavBar (props) {
   const dispatch = useDispatch();
 
-  const resetState = () => {
-    dispatch(hide());
-    dispatch(untogle());
+  const individualTogle = (id) => {
+      dispatch(untoggle());
+      dispatch(toggle(id));
+
+      dispatch(hide());
+
+      if (id === 2) {
+          dispatch(restartGif());
+          setTimeout(() => { dispatch(setGif()) }, 0);
+      }
   }
 
-  const goToMain = () => {
-      dispatch(untoggle());
-      dispatch(toggle(mainDivId));
-      dispatch(hide());
-  }
+  const pages = ['PROJECTS', 'RESUME', 'CONTACT', 'ABOUT'];
+  const pages_id = {'PROJECTS' : 0,
+                    'RESUME' : 1, 
+                    'CONTACT' : 2,
+                    'ABOUT' : 3}
+                  
+  const navLinks = pages.map((page) => (
+    <Link
+      key={page}
+      className="no-underline text-gray-200 font-semibold hover:text-yellow-200"
+      to={`${page}`}
+      onClick={() => individualTogle(pages_id[page])} // Pass pages_id as a parameter
+    >
+      {page}
+    </Link>
+  ));
 
   return (
     <div className="bg-black border-b border-white">
       <div className="flex items-center justify-between p-4">
-        <div className="flex items-center hover:cursor-pointer space-x-2" onClick={() => goToMain()}>
+        <div className="flex items-center hover:cursor-pointer space-x-2" onClick={() => individualTogle(0)}>
           <a href="https://www.linkedin.com/in/igor-mafra-felipe-4a31b5190/">
             <AiFillLinkedin size={36}/>
           </a>
@@ -39,7 +52,7 @@ export function ResponsiveNavBar () {
               IMF
           </Link>
         </div>
-        <nav className="md:block space-x-6" onClick={() => resetState()}>
+        <nav className="md:block space-x-6">
           {navLinks}
         </nav>
       </div>

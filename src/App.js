@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
-import Work from './pages/Work';
 import { ResponsiveNavBar } from './components/navbar';
 import { IconContext } from "react-icons";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -25,7 +24,6 @@ function App() {
             <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/ABOUT" element={<AboutMe />} />
-              <Route path="/WORK" element={<Work />} />
               <Route path="*" element={<AboutMe />} />
             </Routes>
           </div>

@@ -3,12 +3,12 @@ import {IoPersonOutline} from 'react-icons/io5';
 import {MdOutlineFavoriteBorder} from 'react-icons/md';
 import {IoGameControllerOutline} from 'react-icons/io5';
 import {BiBrain} from 'react-icons/bi';
-import { HeartIcon, UsersIcon, PuzzleIcon } from '@heroicons/react/solid';
+import { ViewGridIcon , UserIcon, ChatAltIcon, DocumentTextIcon} from '@heroicons/react/solid';
 
 
 import AboutIcon from './about-icons/AboutIcon';
 
-const CarouselIcons = [HeartIcon, UsersIcon, PuzzleIcon];
+const CarouselIcons = [ ViewGridIcon, DocumentTextIcon, ChatAltIcon, UserIcon ];
 
 function Carousel(props) { 
   return (
