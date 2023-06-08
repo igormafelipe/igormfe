@@ -4,3 +4,5 @@
 # Framework: React, Tailwind CSS
 
 # To run: npm run start
+
+# To deploy: npm run deploy
