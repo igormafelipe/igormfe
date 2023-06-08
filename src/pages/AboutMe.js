@@ -6,7 +6,7 @@ import FavoritesContent from '../components/FavoritesContent';
 import Footer from "./Footer";
 import CaroulselSelector from '../components/CaroulselSelector';
 import ProfileCard from '../components/profile-card/ProfileCard';
-import ResumeDiv from '../components/ResumeDiv';
+import SkillsDiv from '../components/SkillsDiv';
 
 function AboutMe() {  
   return (
@@ -67,7 +67,7 @@ function AboutMe() {
           {/* These divs are affected by the Carousel. They are shown/hidden as 
               icons are pressed */}
           <CaroulselSelector id={0} content={<FavoritesContent/>} color="bg-black"/>
-          <CaroulselSelector id={1} content={<ResumeDiv/>} color="bg-black"/>
+          <CaroulselSelector id={1} content={<SkillsDiv id={1}/>} color="bg-black"/>
           <CaroulselSelector id={2} content={<div/>} color="bg-black"/>
           <CaroulselSelector id={3} content={<GamingContent/>} color="bg-black"/>
           {/* Todo: Contact ME with id 1 */}
