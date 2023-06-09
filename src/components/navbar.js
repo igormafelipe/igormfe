@@ -26,7 +26,7 @@ export function ResponsiveNavBar (props) {
 
   const pages = ['PROJECTS', 'SKILLS', 'CONTACT', 'ABOUT'];
   const pages_id = {'PROJECTS' : 0,
-                    'RESUME' : 1, 
+                    'SKILLS' : 1, 
                     'CONTACT' : 2,
                     'ABOUT' : 3}
                   
