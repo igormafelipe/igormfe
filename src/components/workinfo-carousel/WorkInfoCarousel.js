@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkInfoButton from './WorkInfoButton';
 import { useDispatch, useSelector } from 'react-redux';
-import { togle, untogle } from './WorkInfoSlicer';
+import { untogle } from './WorkInfoSlicer';
 import { ArrowCircleLeftIcon } from '@heroicons/react/solid';
 
 const buttons = ["RESUME", "PROJECTS"];

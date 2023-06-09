@@ -14,7 +14,6 @@ function ResumeDiv (props) {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             setReloadKey(divState == "selected");
-            console.log("divState has changed: '", reloadKey);
         }, 200);
         return () => clearTimeout(timeoutId);
     }, [divState])

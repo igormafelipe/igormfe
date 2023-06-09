@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import gameStoryGif from '../../images/gif_about_me.gif';
-import fundoPreto from '../../images/fundo_preto.jpg';
 
 const initialState = {
     isTogled: false,

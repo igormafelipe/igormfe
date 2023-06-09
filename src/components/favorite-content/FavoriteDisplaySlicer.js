@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// To do: Fix default link and initial state.
+
 const defaultLink = "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2F56d5c51f394b5b441fd27c1ef2e639d4%2F4591982.jpg&w=1200&h=678&c=sc&poi=face&q=60";
 
 const initialState = {
