@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.0334184c.css",
-    "main.js": "/igormfe/static/js/main.b71a4a8b.js",
+    "main.css": "/igormfe/static/css/main.7cb7a51c.css",
+    "main.js": "/igormfe/static/js/main.f9a1e1d5.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
@@ -9,15 +9,15 @@
     "static/media/arcane.jpg": "/igormfe/static/media/arcane.e3c7b8ee121d8c35486e.jpg",
     "static/media/profile_pic.jpg": "/igormfe/static/media/profile_pic.44e5ffd32e04faaa8282.jpg",
     "static/media/st_augustine.jpg": "/igormfe/static/media/st_augustine.e4014fa51d8b03b27aef.jpg",
-    "static/media/dom_casmurro.jpg": "/igormfe/static/media/dom_casmurro.420378aa409e4d9a7735.jpg",
     "static/media/igor_praia.jpg": "/igormfe/static/media/igor_praia.c3afabe2d8b69cd7e9df.jpg",
+    "static/media/job_seeker_display.jpg": "/igormfe/static/media/job_seeker_display.2140b01bfd4803c66efc.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.0334184c.css.map": "/igormfe/static/css/main.0334184c.css.map",
-    "main.b71a4a8b.js.map": "/igormfe/static/js/main.b71a4a8b.js.map"
+    "main.7cb7a51c.css.map": "/igormfe/static/css/main.7cb7a51c.css.map",
+    "main.f9a1e1d5.js.map": "/igormfe/static/js/main.f9a1e1d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0334184c.css",
-    "static/js/main.b71a4a8b.js"
+    "static/css/main.7cb7a51c.css",
+    "static/js/main.f9a1e1d5.js"
   ]
 }
