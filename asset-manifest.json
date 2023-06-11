@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.7cb7a51c.css",
-    "main.js": "/igormfe/static/js/main.f9a1e1d5.js",
+    "main.css": "/igormfe/static/css/main.9e35f6bb.css",
+    "main.js": "/igormfe/static/js/main.6a5818b8.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
@@ -13,11 +13,11 @@
     "static/media/job_seeker_display.jpg": "/igormfe/static/media/job_seeker_display.2140b01bfd4803c66efc.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.7cb7a51c.css.map": "/igormfe/static/css/main.7cb7a51c.css.map",
-    "main.f9a1e1d5.js.map": "/igormfe/static/js/main.f9a1e1d5.js.map"
+    "main.9e35f6bb.css.map": "/igormfe/static/css/main.9e35f6bb.css.map",
+    "main.6a5818b8.js.map": "/igormfe/static/js/main.6a5818b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cb7a51c.css",
-    "static/js/main.f9a1e1d5.js"
+    "static/css/main.9e35f6bb.css",
+    "static/js/main.6a5818b8.js"
   ]
 }
