@@ -62,13 +62,13 @@ function FavoriteContent () {
     const [translationIdx, setTranslationIdx] = useState(0);
     console.log(translationIdx);
     const translateXvals = ["translate-x-[65rem]", 
-                            "translate-x-[33rem]", 
-                            "translate-x-[0rem]", 
-                            "-translate-x-[33rem]",
-                            "-translate-x-[66rem]"];
+                            "translate-x-[22rem]", 
+                            "-translate-x-[21rem]", 
+                            "-translate-x-[64rem]",
+                            ];
     const translation = `w-full h-full flex flex-col ${translateXvals[translationIdx]} transition-all duration-300 bg-black`;
-    const rightGaleryShift = () => setTranslationIdx((translationIdx + 1) % 5) ;
-    const leftGaleryShift = () => setTranslationIdx((((translationIdx - 1) % 5) + 4) % 5);
+    const rightGaleryShift = () => setTranslationIdx((translationIdx + 1) % 4) ;
+    const leftGaleryShift = () => setTranslationIdx((((translationIdx - 1) % 4) + 4) % 4);
 
     console.log(translation);
     return (
