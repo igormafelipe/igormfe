@@ -1,12 +1,15 @@
+/* FavoritesContent: the main display of the projects. */
+
 import React, {useState} from 'react';
 import TheConfessions from '../../images/favorite_page/st_augustine.jpg';
 import HpBook from '../../images/favorite_page/hp.png';
-import DomCasmurro from '../../images/favorite_page/dom_casmurro.jpg';
-import FavoriteGallery from './FavoriteGallery';
+import ProjectGallery from './ProjectGallery';
 
 import RickMorty from '../../images/favorite_page/rick_morty.jpg';
 import TheWitcher from '../../images/favorite_page/the_witcher.jpg';
 import Arcane from '../../images/favorite_page/arcane.jpg';
+import JobSeeker from '../../images/favorite_page/job_seeker_display.jpg'
+
 import FavoriteDisplay from './FavoriteDisplay';
 
 import { FavoriteContentBodys, FavoriteContentTitles } from '../../texts/FavoriteContentText';
@@ -30,7 +33,7 @@ const favoriteBooks = [
     "body" : FavoriteContentBodys['books']['harrypotter'],
 },
 {
-    "img" : DomCasmurro,
+    "img" : JobSeeker,
     "title" : FavoriteContentTitles['books']['casmurro'],
     "body" : FavoriteContentBodys['books']['casmurro'],
 },
@@ -55,16 +58,7 @@ const favoriteBooks = [
     "body" : FavoriteContentBodys['books']['confessions'],
 }];
 
-// Translation left and right depends on number of images.
-// 12 images = 180
-// 6 images = 90
-// each image is 33 rem. 5 rem padding. 38 rem
-
-// Initial REM: -50, -18, 15, 48
-//
-// every time you go right, move by 38 rem?
-
-function FavoritesContent () {
+function ProjectsComponent () {
     const [translationIdx, setTranslationIdx] = useState(2);
     const translateXvals = ["-50", "-15", "15", "50"];
     const translation = `w-full h-full flex flex-col -translate-x-[${translateXvals[translationIdx]}rem] transition-all duration-300 bg-black`;
@@ -80,7 +74,7 @@ function FavoritesContent () {
                 {/* Translate this div on X to have the gallery effect */}
                 <div className={translation}>
                     <div className='w-full h-full flex flex-row space items-center justify-center'>
-                        <FavoriteGallery images={favoriteBooks} title="PROJECTS"/>
+                        <ProjectGallery images={favoriteBooks} title="PROJECTS"/>
                     </div>
                 </div>
             </div>
@@ -95,4 +89,4 @@ function FavoritesContent () {
     );
 }
 
-export default FavoritesContent;
+export default ProjectsComponent;

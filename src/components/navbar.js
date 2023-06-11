@@ -2,7 +2,7 @@
 // https://github.com/karinfam
 
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { hide } from './favorite-content/FavoriteDisplaySlicer';
 import { setGif, restartGif } from './restart-button/restartButtonSlice';
