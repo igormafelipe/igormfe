@@ -12,54 +12,11 @@ import JobSeeker from '../../images/favorite_page/job_seeker_display.jpg'
 
 import FavoriteDisplay from './FavoriteDisplay';
 
-import { FavoriteContentBodys, FavoriteContentTitles } from '../../texts/FavoriteContentText';
+import { projects } from '../../texts/ProjectDescriptions';
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/solid';
 
-
-const favoriteBooks = [
-{
-    "img" : Arcane,
-    "title" : FavoriteContentTitles['shows']['arcane'],
-    "body" : FavoriteContentBodys['shows']['arcane'],
-},
-{
-    "img" : TheConfessions,
-    "title" : FavoriteContentTitles['books']['confessions'],
-    "body" : FavoriteContentBodys['books']['confessions'],
-},
-{
-    "img" : HpBook,
-    "title" : FavoriteContentTitles['books']['harrypotter'],
-    "body" : FavoriteContentBodys['books']['harrypotter'],
-},
-{
-    "img" : JobSeeker,
-    "title" : FavoriteContentTitles['books']['casmurro'],
-    "body" : FavoriteContentBodys['books']['casmurro'],
-},
-{
-    "img" : RickMorty,
-    "title" : FavoriteContentTitles['shows']['rickmort'],
-    "body" : FavoriteContentBodys['shows']['rickmort'],
-},
-{
-    "img" : TheWitcher,
-    "title" : FavoriteContentTitles['shows']['witcher'],
-    "body" : FavoriteContentBodys['shows']['witcher'],
-},
-{
-    "img" : Arcane,
-    "title" : FavoriteContentTitles['shows']['arcane'],
-    "body" : FavoriteContentBodys['shows']['arcane'],
-},
-{
-    "img" : TheConfessions,
-    "title" : FavoriteContentTitles['books']['confessions'],
-    "body" : FavoriteContentBodys['books']['confessions'],
-}];
-
 function FavoriteContent () {
-    const [translationIdx, setTranslationIdx] = useState(0);
+    const [translationIdx, setTranslationIdx] = useState(2);
     console.log(translationIdx);
     const translateXvals = ["translate-x-[65rem]", 
                             "translate-x-[22rem]", 
@@ -80,7 +37,7 @@ function FavoriteContent () {
                 {/* Translate this div on X to have the gallery effect */}
                 <div className={translation}>
                     <div className='w-full h-full flex flex-row space items-center justify-center'>
-                        <FavoriteGallery images={favoriteBooks} title="PROJECTS"/>
+                        <FavoriteGallery images={projects} title="PROJECTS"/>
                     </div>
                 </div>
             </div>

@@ -5,9 +5,11 @@ import GitHub from '../../images/favorite_page/github.png';
 
 function FavoriteImg(props) { 
   const outerDivStyle = {
-    backgroundImage: `url(${props.src})`,
+    backgroundImage: `url(${props.coverimg})`,
     backgroundSize: 'cover',
   };
+
+  console.log(props);
 
   const dispatch = useDispatch();
   const [isHover, setHover] = useState(false);
@@ -33,19 +35,25 @@ function FavoriteImg(props) {
         <div className="w-full h-full"
             style={outerDivStyle}>
             <div className="w-full h-full hover:h-full bg-black bg-opacity-70 transition-all">
-              <h1 className="text-2xl text-white text-center relative top-5">{props.title}</h1>
+              <h1 className="text-2xl text-white text-center relative relative top-5">
+                {props.title}
+              </h1>
               {/*Overview of project*/}
-              <h1 className="text-2xl text-white text-center relative top-20">{props.body}</h1>
+              <h1 className="text-2xl text-white text-center relative top-20">
+                {props.body}
+              </h1>
               {/*Skills used*/}
-              <h1 className="text-2xl text-white text-center relative top-40">Skills: Python, React, CSS</h1>
+              <h1 className="text-2xl text-white text-center relative top-40">
+                {props.skills}
+              </h1>
               {/*Todo: send link as props!*/}
               <div className="w-full relative top-60 flex justify-center space-x-10">
-                <a href="https://google.com" target="_blank">
+                <a href={props.github} target="_blank">
                   <img src={GitHub} 
                         className="rounded-full w-12 h-12 hover:cursor-pointer animate-pulse hover:animate-none"/>
                 </a>
 
-                <button class="bg-black text-white border border-white hover:bg-yellow-500 hover:border-yellow-500 hover:text-black px-4 py-2 rounded animate-pulse hover:animate-none"
+                <button className="bg-black text-white border border-white hover:bg-yellow-500 hover:border-yellow-500 hover:text-black px-4 py-2 rounded animate-pulse hover:animate-none"
                         onClick={() => dispatch(show(props))}>
                   See More
                 </button>
