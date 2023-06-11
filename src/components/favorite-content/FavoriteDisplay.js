@@ -15,7 +15,7 @@ function FavoriteDisplay(props) {
 
   return (
     <div className={showing ? showingClass : hiddenClass}>
-      <div className="relative top-0 w-3/4 h-3/4 flex flex-row">
+      <div className="relative top-0 w-5/6 h-5/6 flex flex-row">
         <div className="w-1/2 h-full relative top-0 left-0">
           <img className="absolute top-0 left-0 w-full h-full" src={imageSrc}/>
         </div>

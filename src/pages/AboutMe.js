@@ -1,7 +1,7 @@
 import React from 'react';
 import profilePic from '../images/profile_pic.jpg';
 import GamingContent from '../components/GamingContent';
-import FavoritesContent from '../components/FavoritesContent';
+import FavoritesContent from '../components/favorite-content/FavoritesContent';
 
 import Footer from "./Footer";
 import CaroulselSelector from '../components/CaroulselSelector';
