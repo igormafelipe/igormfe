@@ -10,7 +10,7 @@ function FavoriteImg(props) {
 
   const dispatch = useDispatch();
   return (
-    <div className="w-[33rem] h-5/6 mb-5 opacity-70 hover:opacity-100 hover:cursor-pointer transition-all aspect-square"
+    <div className="w-[30rem] h-5/6 mb-5 opacity-70 hover:opacity-100 hover:cursor-pointer transition-all aspect-square"
           onClick={() => dispatch(show(props))}
           style={outerDivStyle}>
        <div className="w-full h-1/6 bg-black relative top-1/2 flex items-center justify-center bg-opacity-70">
