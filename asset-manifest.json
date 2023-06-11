@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.9e35f6bb.css",
-    "main.js": "/igormfe/static/js/main.6a5818b8.js",
+    "main.css": "/igormfe/static/css/main.e6539aaf.css",
+    "main.js": "/igormfe/static/js/main.be4b0eb8.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
+    "static/media/website_pai.png": "/igormfe/static/media/website_pai.0a9aa5a3582b79e5dfae.png",
     "static/media/rick_morty.jpg": "/igormfe/static/media/rick_morty.8728bfb165ba03bbf4ba.jpg",
     "static/media/arcane.jpg": "/igormfe/static/media/arcane.e3c7b8ee121d8c35486e.jpg",
+    "static/media/arith.png": "/igormfe/static/media/arith.0debbc14a08bd3135da2.png",
+    "static/media/im1.png": "/igormfe/static/media/im1.20eb105f85aaebe20531.png",
     "static/media/profile_pic.jpg": "/igormfe/static/media/profile_pic.44e5ffd32e04faaa8282.jpg",
     "static/media/st_augustine.jpg": "/igormfe/static/media/st_augustine.e4014fa51d8b03b27aef.jpg",
+    "static/media/metro_sim.jpg": "/igormfe/static/media/metro_sim.842e8651748e00d0af12.jpg",
     "static/media/igor_praia.jpg": "/igormfe/static/media/igor_praia.c3afabe2d8b69cd7e9df.jpg",
+    "static/media/stone.jpg": "/igormfe/static/media/stone.f390e3d39bf3e4d6eb39.jpg",
+    "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
     "static/media/job_seeker_display.jpg": "/igormfe/static/media/job_seeker_display.2140b01bfd4803c66efc.jpg",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.9e35f6bb.css.map": "/igormfe/static/css/main.9e35f6bb.css.map",
-    "main.6a5818b8.js.map": "/igormfe/static/js/main.6a5818b8.js.map"
+    "main.e6539aaf.css.map": "/igormfe/static/css/main.e6539aaf.css.map",
+    "main.be4b0eb8.js.map": "/igormfe/static/js/main.be4b0eb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e35f6bb.css",
-    "static/js/main.6a5818b8.js"
+    "static/css/main.e6539aaf.css",
+    "static/js/main.be4b0eb8.js"
   ]
 }
