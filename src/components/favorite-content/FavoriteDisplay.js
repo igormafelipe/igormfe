@@ -20,18 +20,21 @@ function FavoriteDisplay(props) {
   return (
     <div className={showing ? showingClass : hiddenClass}>
       <div className="relative top-0 w-full h-full flex flex-row">
-        <div className="w-full h-full relative left-0 top-0 bg-gray-200 overflow-auto">
+        <div className="w-full h-full relative left-0 top-0 bg-black overflow-auto">
           <div className="h-auto w-full relative top-0 left-0">
-            <h1 className="font-extrabold text-3xl text-gray-800 pt-1 text-center font-mono">
+            <h1 className="font-extrabold text-3xl text-yellow-500 pt-1 text-center font-mono">
               {title}
             </h1>
           </div>
-          <div className="h-auto w-full relative top-10 left-0 overflow-hidden">
-            <h1 className="font-extrabold text-2xl text-gray-800 pt-1 text-left font-mono px-3">
+          <div className="h-auto w-full relative top-10 left-0 overflow-hidden space-y-3 overflow-y-hidden">
+            <h1 className="font-extrabold text-2xl text-white pt-1 text-left font-mono px-3">
               {bodyText}
             </h1>
+            <h1 className="font-extrabold text-2xl text-yellow-500 pt-1 text-left font-mono px-3">
+              Skills used: {skills}
+            </h1>
           </div>
-          <div className="w-full h-1/3 bg-red-300 relative top-20">
+          <div className="h-1/3 bg-red relative top-20 flex align-center justify-center">
             <Carousel infiniteLoop={true}>
               { 
               imageArray != undefined &&
@@ -41,11 +44,6 @@ function FavoriteDisplay(props) {
                     <h1 className="legend">{payload["legend"]}</h1>
                   </div>)}
             </Carousel>
-          </div>
-          <div className="h-auto w-full absolute bottom-10 overflow-hidden">
-            <h1 className="font-extrabold text-2xl text-gray-800 pt-1 text-left font-mono px-3">
-              Skills used: {skills}
-            </h1>
           </div>
         </div>
         <span className="absolute top-1 left-1 hover:cursor-pointer bg-black rounded-full border-2 border-white" onClick={() => dispatch(hide())}>
