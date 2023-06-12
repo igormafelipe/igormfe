@@ -21,6 +21,7 @@ export const favoriteSlice = createSlice({
             state.title = action.payload.title;
             state.bodyText = action.payload.body;
             state.imageArray = action.payload.images;
+            state.skills = action.payload.skills;
         },
         hide: (state) => {
             state.showing = false;

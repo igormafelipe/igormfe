@@ -10,6 +10,7 @@ function FavoriteDisplay(props) {
   const title = useSelector((state) => state.favoriteDisplay.title);
   const bodyText = useSelector((state) => state.favoriteDisplay.bodyText);
   const imageArray = useSelector((state) => state.favoriteDisplay.imageArray);
+  const skills = useSelector((state) => state.favoriteDisplay.skills);
   const dispatch = useDispatch();
 
   console.log(imageArray);
@@ -32,23 +33,20 @@ function FavoriteDisplay(props) {
           </div>
           <div className="w-full h-1/3 bg-red-300 relative top-20">
             <Carousel infiniteLoop={true}>
-              {imageArray.map((payload, idx) => 
+              { 
+              imageArray != undefined &&
+              imageArray.map((payload, idx) => 
                   <div>
                     <img src={payload["original"]}/>
                     <h1 className="legend">{payload["legend"]}</h1>
                   </div>)}
             </Carousel>
           </div>
-          {/* <div className="h-auto w-full relative top-10 left-0 overflow-hidden bg-red-500 relative top-40">
+          <div className="h-auto w-full absolute bottom-10 overflow-hidden">
             <h1 className="font-extrabold text-2xl text-gray-800 pt-1 text-left font-mono px-3">
-              Skills
+              Skills used: {skills}
             </h1>
           </div>
-          <div className="h-auto w-full relative top-10 left-0 overflow-hidden bg-red-500 relative top-60">
-            <h1 className="font-extrabold text-2xl text-gray-800 pt-1 text-left font-mono px-3">
-              Video
-            </h1> */}
-          {/* </div> */}
         </div>
         <span className="absolute top-1 left-1 hover:cursor-pointer bg-black rounded-full border-2 border-white" onClick={() => dispatch(hide())}>
          <XIcon className="h-10 w-10 hover:text-red-400 2xl:h-12 2xl:w-12 stroke-white"/>
