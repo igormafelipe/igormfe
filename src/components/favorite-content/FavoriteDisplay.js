@@ -13,8 +13,6 @@ function FavoriteDisplay(props) {
   const skills = useSelector((state) => state.favoriteDisplay.skills);
   const dispatch = useDispatch();
 
-  console.log(imageArray);
-
   const showingClass = "w-full h-full bg-transparent backdrop-blur-md absolute top-0 left-0 flex flex-row items-center justify-center";
   const hiddenClass = showingClass + " hidden";
   return (
@@ -39,7 +37,7 @@ function FavoriteDisplay(props) {
               { 
               imageArray != undefined &&
               imageArray.map((payload, idx) => 
-                  <div>
+                  <div key={idx}>
                     <img src={payload["original"]}/>
                     <h1 className="legend">{payload["legend"]}</h1>
                   </div>)}
