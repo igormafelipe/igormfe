@@ -1,5 +1,3 @@
-/* FavoritesContent: the main display of the projects. */
-
 import React, {useState} from 'react';
 import TheConfessions from '../../images/favorite_page/st_augustine.jpg';
 import HpBook from '../../images/favorite_page/hp.png';
@@ -27,7 +25,6 @@ function FavoriteContent () {
     const rightGaleryShift = () => setTranslationIdx((translationIdx + 1) % 4) ;
     const leftGaleryShift = () => setTranslationIdx((((translationIdx - 1) % 4) + 4) % 4);
 
-    console.log(translation);
     return (
         <div className="w-full h-full bg-black text-white flex flex-col relative">
             <div className='w-full h-auto text-center'>

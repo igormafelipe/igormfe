@@ -9,21 +9,20 @@ function FavoriteImg(props) {
     backgroundSize: 'cover',
   };
 
-  console.log(props);
-
   const dispatch = useDispatch();
   const [isHover, setHover] = useState(false);
+  const {images} = props.images
 
   return (
-    <div  className="w-[30rem] h-5/6 mb-5 aspect-square"
+    <div  className="w-[30rem] h-full mb-5 aspect-square"
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}>
       {/* Image DIV */}
       {
         !isHover &&
-        <div className="w-full h-full opacity-70 hover:opacity-100 hover:cursor-pointer transition-all"
+        <div className="w-full h-full opacity-100 hover:cursor-pointer transition-all"
             style={outerDivStyle}>
-            <div className="w-full h-1/6 bg-black relative top-1/2 flex items-center justify-center bg-opacity-70">
+            <div className="w-full h-1/6 bg-black relative top-1/2 flex items-center justify-center bg-opacity-70 text-center">
               <h1 className="text-2xl text-white">{props.title}</h1>
             </div>
         </div>
@@ -57,6 +56,7 @@ function FavoriteImg(props) {
                         onClick={() => dispatch(show(props))}>
                   See More
                 </button>
+
               </div>
             </div>
         </div>

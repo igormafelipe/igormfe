@@ -1,58 +1,81 @@
-import im1 from "../images/projects/123preach/im1.jpg";
-import im1Web from "../images/projects/websiteimg/im1.png";
-import arith from "../images/projects/arith.png";
-import metroSim from "../images/metro_sim.jpg";
 import stone from "../images/stone.jpg";
-import all_windows_clean from "../images/website_pai.png";
+import loading_page from "../images/projects/CompanyFetcher/loading_page.png";
+import main_page from "../images/projects/CompanyFetcher/main_page.png";
+import results_page from "../images/projects/CompanyFetcher/results_page.png";
+
+import coming_soon from "../images/projects/coming_soon.jpg";
 
 export const projects = 
 [
   { 
+    'title' : 'Coming Soon',
+    'images' : [],
+    'coverimg' : coming_soon,
+    'body' : "",
+    'skills' : '',
+    'date' : '',
+    'github': '',
+  },
+  { 
+    'title' : 'Coming Soon',
+    'images' : [],
+    'coverimg' : coming_soon,
+    'body' : "",
+    'skills' : '',
+    'date' : '',
+    'github': '',
+  },
+  { 
     'images' : [stone],
     'coverimg' : stone,
-    'body' : 'To structure a new products operation, focusing on entrepreneurial and Leadership skills. Tasks included ensuring all necessary documentation is aligned to train the team, overseeing the necessary infrastructure in different platforms so the team members can provide a service of the highest quality, structuring the main processes to resolve any new problem the client may have, and suggesting improvements for the agent experience on Salesforce and Admin.',
-    'skills' : 'Clickup, Workplace, DashBoard, SQL, Google Cloud, Google Sheets, Google Forms',
+    'body' : 'To structure a new products operation, focusing on entrepreneurial and Leadership skills. Tasks included reviewing training documentation, overseeing necessary infrastructure, delegating tasks and planning for project completion, and serving as a consultant for improvements on the internal platforms used by 200 agents',
+    'skills' : 'Clickup, Workplace, SQL, BigQuery',
     'date' : '06/2022 - 09/2022',
     'title' : 'Stone Global Summer Internship',
   },
   { 
-    'images' : [metroSim],
-    'coverimg' : metroSim,
-    'body' : 'A metro simulator where stations and trains can be modified, and passengers are given a boarding station and a destination. Trains function in parallel. Developed skills in parallel programming, locks, semaphores, and Java.',
-    'skills' : 'Java',
-    'date' : '09/2021',
-    'title' : 'Metro Sim',
+    'title' : 'Job Search Platform With Sponsorship Verification',
+    'images' : [main_page, results_page, loading_page],
+    'coverimg' : main_page,
+    'body' : "Developed a platform to display job listings of companies allowed to offer sponsorship by the country's yearly listing. The platform filters out roles that are not allowed to be sponsored for, but are still advertised as such, saving applicants wasted time.",
+    'skills' : 'Flask, Pandas, React, sCapy, CareerJet API',
+    'date' : '05/2023',
+    'github': 'https://github.com/igormafelipe/company_fetcher_front_end',
   },
   { 
-    'images' : [arith],
-    'coverimg' : arith,
-    'body' : 'As the name suggests, this program compressed and decompressed an image. The compressed image was 4 times smaller than the original, and the algorithm converted the image from pixels from RGB to a matrix of compressed 4 by 4 tiles, and then further compressed this matrix into 32 bit words.',
-    'skills' : 'C',
-    'date' : '06/2020',
+    'title' : 'Job Search API',
+    'images' : [main_page, results_page, loading_page],
+    'coverimg' : results_page,
+    'body' : "Developed an API to scrape and populate a DB of current job openings. A unique DB table is created for 20 different countries. The DB is automatically updated 3x a week, and users can request job openings with certain filter parameters.",
+    'skills' : 'Flask, Pandas, React, sCapy, CareerJet API',
+    'date' : '05/2023',
+    'github': 'https://github.com/igormafelipe/company_fetcher_api',
+  },
+  { 
     'title' : 'Image Compressor',
-  },
-  {
-    'images' : [im1Web],
-    'coverimg' : im1Web,
-    'body' : 'I designed and developed a website to display who I am, what I do, and my skills. I hope to convey more than a single sheet of paper could, and to develop my skills in web development.',
-    'skills' : 'JavaScript, Html, React, Redux, TailwindCss',
-    'date' : '06/2022',
-    'title' : 'Personal Website',
-  },
-  {
-    'images' : [all_windows_clean],
-    'coverimg' : all_windows_clean,
-    'body' : 'I designed and developed a website for All Windows Services, a windows cleaning company based in Marlborough, MA. The website was designed using figma, and most of the functionalities came from wix. JavaScript was used to alter some functionalities to better serve the company.',
-    'skills' : 'Figma, JS, wix, PhotoShop',
-    'date' : '7/20/2022',
-    'title' : 'allwindowservice.com',
+    'images' : [],
+    'coverimg' : results_page,
+    'body' : "Developed a C program to compress an RGB image. The project involved writting and testing linear bijections, performing discrete cosine transformation between RGB and component video color spaces, and performing lossy compression with floating point arithmetic. The program was optimized to run in a fraction of a second for HD images.",
+    'skills' : 'C, Data Structures, Algorithms',
+    'date' : '09/2021',
+    'github': 'https://github.com/igormafelipe/Image-Compressor',
   },
   { 
-    'images' : [im1],
-    'coverimg' : im1,
-    'body' : 'One of my very first projects. A platform designed to help religious leaders around the globe to share their messages. Users were able to post new messages, attach videos, add friends, follow other accounts, and filter their feed based on keywords.',
-    'skills' : 'Html, CSS, Python, JavaScript, Google App Engine, Data Store, Jinja2, WebApp2',
-    'date' : '06/2019',
-    'title' : '123Preach',
+    'title' : 'Coming Soon',
+    'images' : [],
+    'coverimg' : coming_soon,
+    'body' : "",
+    'skills' : '',
+    'date' : '',
+    'github': '',
+  },
+  { 
+    'title' : 'Coming Soon',
+    'images' : [],
+    'coverimg' : coming_soon,
+    'body' : "",
+    'skills' : '',
+    'date' : '',
+    'github': '',
   },
 ];
