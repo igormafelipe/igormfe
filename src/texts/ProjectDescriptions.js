@@ -4,6 +4,7 @@ import main_page from "../images/projects/CompanyFetcher/main_page.png";
 import results_page from "../images/projects/CompanyFetcher/results_page.png";
 import restful_api from "../images/projects/restful_api.png";
 import arith from "../images/projects/arith.png";
+import ta_position from "../images/projects/ta_position.jpg";
 
 import coming_soon from "../images/projects/coming_soon.jpg";
 
@@ -19,12 +20,12 @@ export const projects =
     'github': '',
   },
   { 
-    'title' : 'Coming Soon',
+    'title' : 'Teaching Assistant',
     'images' : [],
-    'coverimg' : coming_soon,
-    'body' : "",
-    'skills' : '',
-    'date' : '',
+    'coverimg' : ta_position,
+    'body' : "As a teaching assistant for more than 2 years, I developed skills in teaching and leading those with little to no background in a given topic. Tasks included hosting office hours and teaching lab sections.",
+    'skills' : 'Teaching, Presenting, Public Speaking',
+    'date' : '2021-2023',
     'github': '',
   },
   { 
