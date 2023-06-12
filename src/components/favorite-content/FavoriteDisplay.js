@@ -5,7 +5,6 @@ import { hide } from './FavoriteDisplaySlicer';
 
 function FavoriteDisplay(props) { 
   const showing = useSelector((state) => state.favoriteDisplay.showing);
-  const imageSrc = useSelector((state) => state.favoriteDisplay.imageSrc);
   const title = useSelector((state) => state.favoriteDisplay.title);
   const bodyText = useSelector((state) => state.favoriteDisplay.bodyText);
   const dispatch = useDispatch();

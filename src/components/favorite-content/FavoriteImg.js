@@ -33,11 +33,11 @@ function FavoriteImg(props) {
         <div className="w-full h-full"
             style={outerDivStyle}>
             <div className="w-full h-full hover:h-full bg-black bg-opacity-70 transition-all">
-              <h1 className="text-2xl text-white text-center relative relative top-5">
+              <h1 className="text-2xl text-yellow-500 text-center relative relative top-5">
                 {props.title}
               </h1>
               {/*Overview of project*/}
-              <h1 className="text-2xl text-white text-center relative top-20">
+              <h1 className="text-2xl text-white text-justify px-7 relative top-20">
                 {props.body}
               </h1>
               {/*Skills used*/}
