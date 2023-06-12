@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { XIcon } from '@heroicons/react/solid';
 import { useDispatch, useSelector } from 'react-redux';
 import { hide } from './FavoriteDisplaySlicer';

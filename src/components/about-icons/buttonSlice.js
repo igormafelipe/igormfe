@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    divState: ["selected", "unselected", "unselected", "unselected"],
+    divState: ["unselected", "unselected", "unselected", "selected"],
 }
 
 export const buttonSlice = createSlice({

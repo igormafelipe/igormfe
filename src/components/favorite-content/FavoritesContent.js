@@ -1,12 +1,5 @@
 import React, {useState} from 'react';
-import TheConfessions from '../../images/favorite_page/st_augustine.jpg';
-import HpBook from '../../images/favorite_page/hp.png';
 import FavoriteGallery from './FavoriteGallery';
-
-import RickMorty from '../../images/favorite_page/rick_morty.jpg';
-import TheWitcher from '../../images/favorite_page/the_witcher.jpg';
-import Arcane from '../../images/favorite_page/arcane.jpg';
-import JobSeeker from '../../images/favorite_page/job_seeker_display.jpg'
 
 import FavoriteDisplay from './FavoriteDisplay';
 

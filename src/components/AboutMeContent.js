@@ -7,7 +7,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { useDispatch } from 'react-redux';
 import { toggle, untoggle } from './about-icons/buttonSlice';
 
-function AboutMeContent (props) {
+function AboutMeContent () {
     const dispatch = useDispatch();
 
     const NavigateToProjects = () => {
@@ -35,11 +35,13 @@ function AboutMeContent (props) {
                         </h1>
                     </div>
                 </div>
-                <div className="w-full h-[32rem] bg-black flex align-center justify-center pt-5">
+                <div className="w-full h-[32rem] bg-black flex align-center justify-center pt-5 border-white border-t-2">
+                    <div className="w-auto">
+                        <RestartButton/>
+                    </div>
                     <img className="w-auto h-full" src={gifSrc}/>
-                    <RestartButton/>
                 </div>
-                <div className="w-full h-1/3 bg-black flex flex-row justify-center align-bottom space-x-10">
+                <div className="w-full h-auto bg-black flex justify-center bg-black space-x-10 absolute bottom-0 border-white border-t-2 pt-10">
                     <a href={"https://github.com/igormafelipe"} target="_blank">
                         <img src={GitHub} 
                             className="rounded-full w-24 h-24 hover:cursor-pointer animate-pulse hover:animate-none"/>

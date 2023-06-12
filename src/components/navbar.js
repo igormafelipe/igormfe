@@ -44,7 +44,7 @@ export function ResponsiveNavBar (props) {
   return (
     <div className="bg-black border-b border-white">
       <div className="flex items-center justify-between p-4">
-        <div className="flex items-center hover:cursor-pointer space-x-2" onClick={() => individualTogle(0)}>
+        <div className="flex items-center hover:cursor-pointer space-x-2" onClick={() => individualTogle(3)}>
           <a href="https://www.linkedin.com/in/igor-mafra-felipe-4a31b5190/">
             <AiFillLinkedin size={36}/>
           </a>

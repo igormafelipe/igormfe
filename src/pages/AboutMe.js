@@ -71,7 +71,6 @@ function AboutMe() {
           <CaroulselSelector id={1} content={<SkillsDiv id={1}/>} color="bg-black"/>
           <CaroulselSelector id={2} content={<ContactMeForm/>} color="bg-black"/>
           <CaroulselSelector id={3} content={<AboutMeContent/>} color="bg-black"/>
-          {/* Todo: Contact ME with id 1 */}
         </div>
       </div>
       <Footer/>
