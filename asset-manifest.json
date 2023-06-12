@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.e6539aaf.css",
-    "main.js": "/igormfe/static/js/main.be4b0eb8.js",
+    "main.css": "/igormfe/static/css/main.c74de773.css",
+    "main.js": "/igormfe/static/js/main.f2e29586.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/the_witcher.jpg": "/igormfe/static/media/the_witcher.e88ad53fede9bf27e690.jpg",
     "static/media/hp.png": "/igormfe/static/media/hp.5a538b63f7dab06fc861.png",
-    "static/media/website_pai.png": "/igormfe/static/media/website_pai.0a9aa5a3582b79e5dfae.png",
     "static/media/rick_morty.jpg": "/igormfe/static/media/rick_morty.8728bfb165ba03bbf4ba.jpg",
     "static/media/arcane.jpg": "/igormfe/static/media/arcane.e3c7b8ee121d8c35486e.jpg",
-    "static/media/arith.png": "/igormfe/static/media/arith.0debbc14a08bd3135da2.png",
-    "static/media/im1.png": "/igormfe/static/media/im1.20eb105f85aaebe20531.png",
+    "static/media/main_page.png": "/igormfe/static/media/main_page.51d1f6df0ce641f8de2e.png",
+    "static/media/loading_page.png": "/igormfe/static/media/loading_page.f2b8f17a7c683b22ec0c.png",
     "static/media/profile_pic.jpg": "/igormfe/static/media/profile_pic.44e5ffd32e04faaa8282.jpg",
     "static/media/st_augustine.jpg": "/igormfe/static/media/st_augustine.e4014fa51d8b03b27aef.jpg",
-    "static/media/metro_sim.jpg": "/igormfe/static/media/metro_sim.842e8651748e00d0af12.jpg",
     "static/media/igor_praia.jpg": "/igormfe/static/media/igor_praia.c3afabe2d8b69cd7e9df.jpg",
     "static/media/stone.jpg": "/igormfe/static/media/stone.f390e3d39bf3e4d6eb39.jpg",
-    "static/media/im1.jpg": "/igormfe/static/media/im1.1553b0a8e6f13c50473d.jpg",
+    "static/media/restful_api.png": "/igormfe/static/media/restful_api.2bc6df2dfd14102f506c.png",
+    "static/media/results_page.png": "/igormfe/static/media/results_page.946f22e981a5e5166099.png",
+    "static/media/coming_soon.jpg": "/igormfe/static/media/coming_soon.5755a9e0ab3101778224.jpg",
     "static/media/job_seeker_display.jpg": "/igormfe/static/media/job_seeker_display.2140b01bfd4803c66efc.jpg",
+    "static/media/arith.png": "/igormfe/static/media/arith.023298476f9fa7c74243.png",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.e6539aaf.css.map": "/igormfe/static/css/main.e6539aaf.css.map",
-    "main.be4b0eb8.js.map": "/igormfe/static/js/main.be4b0eb8.js.map"
+    "main.c74de773.css.map": "/igormfe/static/css/main.c74de773.css.map",
+    "main.f2e29586.js.map": "/igormfe/static/js/main.f2e29586.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6539aaf.css",
-    "static/js/main.be4b0eb8.js"
+    "static/css/main.c74de773.css",
+    "static/js/main.f2e29586.js"
   ]
 }
