@@ -16,50 +16,70 @@ export const skillsColor = {
   export const skillsData = [
     {
         type: 'Python',
-        level: 95,
+        level: 90,
     },
     {
         type: 'C',
-        level: 34,
+        level: 90,
     },
     {
         type: 'C++',
-        level: 12,
+        level: 75,
     },
     {
         type: 'Java',
-        level: 34,
+        level: 80,
     },
     {
         type: 'JavaScript',
-        level: 98,
+        level: 90,
     },
     {
         type: 'GitHub',
-        level: 100,
+        level: 90,
     },
     {
         type: 'SQL',
-        level: 67,
+        level: 80,
     },
     {
         type: 'PostgreeSQL',
-        level: 78,
+        level: 75,
     },
     {
         type: 'FireBase',
-        level: 74,
+        level: 75,
     },
     {
         type: 'Flask',
-        level: 81,
+        level: 80,
     },
     {
         type: 'Vue.JS',
-        level: 92,
+        level: 75,
     },
     {
         type: 'Full Stack Development',
-        level: 92,
+        level: 85,
+    },
+    {
+        type: 'Debugging & Profilling',
+        level: 80,
+    },
+    {
+        type: 'Algorithms & Data Structures',
+        level: 90,
+    },
+    {
+        type: 'Front End',
+        level: 80,
+    },
+    {
+        type: 'Back End',
+        level: 90,
+    },
+    {
+        type: 'ML',
+        level: 75,
     },
 ];

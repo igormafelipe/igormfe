@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../images/profile_pic.jpg';
-import GamingContent from '../components/GamingContent';
+import AboutMeContent from '../components/AboutMeContent';
 import FavoritesContent from '../components/favorite-content/FavoritesContent';
 
 import Footer from "./Footer";
@@ -70,7 +70,7 @@ function AboutMe() {
           <CaroulselSelector id={0} content={<FavoritesContent/>} color="bg-black"/>
           <CaroulselSelector id={1} content={<SkillsDiv id={1}/>} color="bg-black"/>
           <CaroulselSelector id={2} content={<ContactMeForm/>} color="bg-black"/>
-          <CaroulselSelector id={3} content={<GamingContent/>} color="bg-black"/>
+          <CaroulselSelector id={3} content={<AboutMeContent/>} color="bg-black"/>
           {/* Todo: Contact ME with id 1 */}
         </div>
       </div>

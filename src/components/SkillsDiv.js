@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
-// import { SkillBars } from 'react-skills';
 import SkillBar from 'react-skillbars';
 import { skillsData, skillsColor } from '../texts/SkillBarContent';
 
@@ -25,7 +24,11 @@ function ResumeDiv (props) {
             </h1>
             {
              reloadKey && 
-             <SkillBar skills={skillsData} height={30} colors={skillsColor}/>
+             <SkillBar  skills={skillsData} 
+                        height={30} 
+                        colors={skillsColor}
+                        animationDelay={1500}
+                        width={100}/>
             }
         </div>
     );
