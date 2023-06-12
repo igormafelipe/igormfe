@@ -8,7 +8,6 @@ import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/
 
 function FavoriteContent () {
     const [translationIdx, setTranslationIdx] = useState(2);
-    console.log(translationIdx);
     const translateXvals = ["translate-x-[65rem]", 
                             "translate-x-[22rem]", 
                             "-translate-x-[21rem]", 
@@ -29,7 +28,7 @@ function FavoriteContent () {
                 {/* Translate this div on X to have the gallery effect */}
                 <div className={translation}>
                     <div className='w-full h-full flex flex-row space items-center justify-center'>
-                        <FavoriteGallery images={projects} title="PROJECTS"/>
+                        <FavoriteGallery projects={projects} title="PROJECTS"/>
                     </div>
                 </div>
             </div>
@@ -39,7 +38,7 @@ function FavoriteContent () {
             <span className="absolute bottom-10 right-1 hover:cursor-pointer bg-black rounded-full border-2 border-white" onClick={() => rightGaleryShift()}>
                 <ChevronDoubleRightIcon className="h-10 w-10 hover:text-yellow-400 2xl:h-12 2xl:w-12 stroke-white"/>
             </span>
-            <FavoriteDisplay/> 
+            <FavoriteDisplay/>
         </div>
     );
 }

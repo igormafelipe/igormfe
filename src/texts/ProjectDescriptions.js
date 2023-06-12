@@ -29,7 +29,12 @@ export const projects =
     'github': '',
   },
   { 
-    'images' : [stone],
+    'images' : [
+      {
+        original: stone,
+        thumbnail: stone,
+      }
+    ],
     'coverimg' : stone,
     'body' : 'To structure a new products operation, focusing on entrepreneurial and Leadership skills. Tasks included reviewing training documentation, overseeing necessary infrastructure, delegating tasks and planning for project completion, and serving as a consultant for improvements on the internal platforms used by 200 agents',
     'skills' : 'Clickup, Workplace, SQL, BigQuery',
@@ -39,7 +44,20 @@ export const projects =
   },
   { 
     'title' : 'Job Search Platform With Sponsorship Verification',
-    'images' : [main_page, results_page, loading_page],
+    'images' : [
+      {
+        original: main_page,
+        thumbnail: main_page,
+      },
+      {
+        original: results_page,
+        thumbnail: results_page,
+      },
+      {
+        original: loading_page,
+        thumbnail: loading_page,
+      },
+    ],
     'coverimg' : main_page,
     'body' : "Developed a platform to display job listings of companies allowed to offer sponsorship by the country's yearly listing. The platform filters out roles that are not allowed to be sponsored for, but are still advertised as such, saving applicants wasted time.",
     'skills' : 'Flask, Pandas, React, sCapy, CareerJet API',
@@ -48,7 +66,23 @@ export const projects =
   },
   { 
     'title' : 'Job Search API',
-    'images' : [main_page, results_page, loading_page],
+    'images' : [
+      {
+        original: main_page,
+        thumbnail: main_page,
+        legend: "Platforms Main Page",
+      },
+      {
+        original: results_page,
+        thumbnail: results_page,
+        legend: "Platforms Results Page",
+      },
+      {
+        original: loading_page,
+        thumbnail: loading_page,
+        legend: "Platforms Loading Page",
+      },
+    ],
     'coverimg' : restful_api,
     'body' : "Developed an API to scrape and populate a DB of current job openings. A unique DB table is created for 20 different countries. The DB is automatically updated 3x a week, and users can request job openings with certain filter parameters.",
     'skills' : 'Flask, Pandas, React, sCapy, CareerJet API',

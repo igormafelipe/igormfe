@@ -17,9 +17,10 @@ export const favoriteSlice = createSlice({
     reducers: {
         show: (state, action) => {
             state.showing = true;
-            state.imageSrc = action.payload.src;
+            state.imageSrc = action.payload.coverimg;
             state.title = action.payload.title;
             state.bodyText = action.payload.body;
+            state.imageArray = action.payload.images;
         },
         hide: (state) => {
             state.showing = false;
