@@ -24,7 +24,7 @@ function ProfileCard () {
 
                 <div className="h-full w-auto relative bg-transparent top-9">
                     <ProfileInfo text="Software Engineer" icon={CgProfile}/>
-                    <ProfileInfo text="23 Years Old" icon={AiOutlineCalendar}/>
+                    <ProfileInfo text="24 Years Old" icon={AiOutlineCalendar}/>
                     <ProfileInfo text="Born in Brazil" icon={GiBrazilFlag}/>
                     <ProfileInfo text="Computer Science" icon={RiComputerLine}/>
                     <ProfileInfo text="Tufts University" icon={IoSchoolSharp}/>
