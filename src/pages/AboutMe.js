@@ -11,7 +11,7 @@ import ContactMeForm from '../components/contact-me/contactMeForm';
 
 function AboutMe() {  
   return (
-    <div className="h-auto container-fluid bg-black overflow-hidden">
+    <div className="min-h-screen container-fluid bg-black overflow-hidden">
       {/* Mobile */}
       <div className='lg:hidden'>
         <div className="w-screen h-auto bg-black relative top-0">
@@ -60,20 +60,14 @@ function AboutMe() {
       </div>
 
       {/* Desktop */}
-      <div className='h-screen w-screen hidden lg:flex lg:flex-col'>
-        <div className='w-full h-[90vh] flex flex-col items-center relative top-2'>
-
-          <ProfileCard/>
-
-          {/* These divs are affected by the Carousel. They are shown/hidden as 
-              icons are pressed */}
-          <CaroulselSelector id={0} content={<FavoritesContent/>} color="bg-black"/>
-          <CaroulselSelector id={1} content={<SkillsDiv id={1}/>} color="bg-black"/>
-          <CaroulselSelector id={2} content={<ContactMeForm/>} color="bg-black"/>
-          <CaroulselSelector id={3} content={<AboutMeContent/>} color="bg-black"/>
-        </div>
+      <div className="h-[90vh] flex flex-col items-center relative top-2 bg-black">
+        {/* Desktop content here */}
+        <ProfileCard />
+        <CaroulselSelector id={0} content={<FavoritesContent />} color="bg-black" />
+        <CaroulselSelector id={1} content={<SkillsDiv id={1} />} color="bg-black" />
+        <CaroulselSelector id={2} content={<ContactMeForm />} color="bg-black" />
+        <CaroulselSelector id={3} content={<AboutMeContent />} color="bg-black" />
       </div>
-      <Footer/>
     </div>
   );
 }
