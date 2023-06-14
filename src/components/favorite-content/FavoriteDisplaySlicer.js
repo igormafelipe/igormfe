@@ -32,9 +32,12 @@ export const favoriteSlice = createSlice({
         setBody: (state, action) => {
             state.bodyText = action.payload;
         },
+        setProjectOffset: (state, action) => {
+            state.offset = action.payload;
+        },
     }
-})
+});
 
-export const { show, hide, setTitle, setBody } = favoriteSlice.actions;
+export const { show, hide, setTitle, setBody, setProjectOffset } = favoriteSlice.actions;
 
 export default favoriteSlice.reducer;

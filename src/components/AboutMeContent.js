@@ -19,7 +19,7 @@ function AboutMeContent() {
   const gifSrc = useSelector((state) => state.restartButton.gifState);
 
   return (
-    <div className="w-full h-full bg-black text-white overflow-auto" style={{ scrollbarWidth: "none", "-ms-overflow-style": "none" }}>
+    <div className="w-full h-full bg-black text-white overflow-auto" style={{ scrollbarWidth: "none", "msOverflowStyle": "none" }}>
       <style>
         {`
           .w-full::-webkit-scrollbar {

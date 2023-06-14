@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { show } from './FavoriteDisplaySlicer';
 import GitHub from '../../images/favorite_page/github.png';
@@ -12,8 +12,11 @@ function FavoriteImg(props) {
   const dispatch = useDispatch();
   const [isHover, setHover] = useState(false);
 
+  const elementRef = useRef(null);
+
   return (
     <div  className="w-[30rem] h-full mb-5 aspect-square"
+          ref={elementRef}
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}>
       {/* Image DIV */}

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import FavoriteGallery from './FavoriteGallery';
+import { useSelector } from 'react-redux';
 
 import FavoriteDisplay from './FavoriteDisplay';
 
@@ -17,14 +18,39 @@ function FavoriteContent () {
     const rightGaleryShift = () => setTranslationIdx((translationIdx + 1) % 4) ;
     const leftGaleryShift = () => setTranslationIdx((((translationIdx - 1) % 4) + 4) % 4);
 
+
+    const offSet = useSelector((state) => state.favoriteDisplay.offset);
+    const [isDragging, setIsDragging] = useState(false);
+    const [startX, setStartX] = useState(0);
+    const [translateX, setTranslateX] = useState(0);
+
+    const handleMouseDown = (event) => {
+        setIsDragging(true);
+        setStartX(event.clientX);
+      };
+    
+      const handleMouseMove = (event) => {
+        if (isDragging) {
+          setTranslateX(offSet);
+        }
+      };
+    
+      const handleMouseUp = () => {
+        setIsDragging(false);
+      };
+
     return (
-        <div className="w-full h-full bg-black text-white flex flex-col relative">
-            <div className='w-full h-auto text-center'>
+        <div className="w-full h-full bg-black text-white flex flex-col relative"
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}>
+            <div className='w-full h-auto text-center select-none'>
                 <h1 className='font-extrabold text-2xl text-white pt-5 text-center font-mono 2xl:text-3xl'>
                     PROJECTS
                 </h1>
             </div>
-            <div className='w-full h-full flex flex-row relative overflow-hidden bg-black'>
+            <div className='w-full h-full flex flex-row relative overflow-hidden bg-black'
+                >
                 {/* Translate this div on X to have the gallery effect */}
                 <div className={translation}>
                     <div className='w-full h-full flex flex-row space items-center justify-center'>
