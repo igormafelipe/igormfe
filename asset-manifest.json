@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igormfe/static/css/main.9139dc21.css",
-    "main.js": "/igormfe/static/js/main.26d063f6.js",
+    "main.css": "/igormfe/static/css/main.70b95b9f.css",
+    "main.js": "/igormfe/static/js/main.61a82e01.js",
     "static/media/gif_about_me.gif": "/igormfe/static/media/gif_about_me.b8e82b97774038b6927e.gif",
     "static/media/ta_position.jpg": "/igormfe/static/media/ta_position.77e5d5162f2af9fc6231.jpg",
     "static/media/igor_eu.png": "/igormfe/static/media/igor_eu.577fa339a8aa8008605a.png",
@@ -16,11 +16,11 @@
     "static/media/arith.png": "/igormfe/static/media/arith.023298476f9fa7c74243.png",
     "static/media/fundo_preto.jpg": "/igormfe/static/media/fundo_preto.3a6a92d179b1c877376c.jpg",
     "index.html": "/igormfe/index.html",
-    "main.9139dc21.css.map": "/igormfe/static/css/main.9139dc21.css.map",
-    "main.26d063f6.js.map": "/igormfe/static/js/main.26d063f6.js.map"
+    "main.70b95b9f.css.map": "/igormfe/static/css/main.70b95b9f.css.map",
+    "main.61a82e01.js.map": "/igormfe/static/js/main.61a82e01.js.map"
   },
   "entrypoints": [
-    "static/css/main.9139dc21.css",
-    "static/js/main.26d063f6.js"
+    "static/css/main.70b95b9f.css",
+    "static/js/main.61a82e01.js"
   ]
 }
